@@ -1,0 +1,18 @@
+body{
+    background-color: peachpuff;
+}
+
+h1{
+    color:rgb(40, 0, 255);
+    background-color: blanchedalmond;
+}
+
+#show_sketch
+{
+    float:right;
+}
+
+p{
+    padding-top: 10px;
+    font-size: 30px;
+}
