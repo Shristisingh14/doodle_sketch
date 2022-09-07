@@ -16,3 +16,17 @@ p{
     padding-top: 10px;
     font-size: 30px;
 }
+
+canvas{
+    border:2px dotted black;
+    border-radius: 20px;
+    animation-name: color;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+
+@keyframes color {
+    from {box-shadow: 2px 2px 40px purple;}
+    to{box-shadow: 2px 2px 40px red;}
+}
